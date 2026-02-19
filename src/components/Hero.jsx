@@ -30,20 +30,20 @@ const Hero = () => {
                         </p>
 
                         <div className="flex flex-wrap items-center gap-5">
-                            <button className="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-primary/30 hover:-translate-y-1 transition-all active:scale-95">
+                            <a href="#contact" className="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-primary/30 hover:-translate-y-1 transition-all active:scale-95 text-center">
                                 Hire me
-                            </button>
-                            <button className="bg-white border-2 border-slate-200 px-8 py-4 rounded-xl font-bold text-lg hover:border-primary hover:text-primary transition-all active:scale-95">
+                            </a>
+                            <a href="#projects" className="bg-white border-2 border-slate-200 px-8 py-4 rounded-xl font-bold text-lg hover:border-primary hover:text-primary transition-all active:scale-95 text-center">
                                 View my portfolio
-                            </button>
+                            </a>
                         </div>
 
-                        <div className="flex items-center gap-2 pt-4 group cursor-pointer w-fit">
+                        <a href="/Nashif-Ali-Resume.pdf" download="Nashif-Ali-Resume.pdf" className="flex items-center gap-2 pt-4 group cursor-pointer w-fit">
                             <div className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 group-hover:bg-primary group-hover:text-white transition-all">
                                 <span className="material-icons text-[20px]">download</span>
                             </div>
                             <span className="font-bold text-slate-700">Download CV</span>
-                        </div>
+                        </a>
                     </div>
 
                     {/* Right Column: Visual Portrait & Floating Icons */}
